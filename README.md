@@ -10,11 +10,18 @@ developed by BrightSearch team for all ethical netstalkers.
 
 Installation & Usage
 ------------
-
+**Clone project**  
 ```
-git clone https://github.com/enemy-submarine/pidrila.git
-cd pidrila
-python3 pidrila.py -u <URL>
+# via https
+git clone https://github.com/kittyandrew/pidrila.git
+# OR
+# via ssh
+git clone git@github.com:kittyandrew/pidrila.git
+```
+**Create virtual env (python3) and install requirements**
+```
+python -m pip install -r requirements.txt
+python pidrila.py -u <URL>
 ```
 
 Options
@@ -56,7 +63,7 @@ Features
 Screenshot
 --------
 <p align="center">
-        <img align="center" src="https://raw.githubusercontent.com/enemy-submarine/pidrila/main/Pidrila.png">
+        <img align="center" src="https://raw.githubusercontent.com/kittyandrew/pidrila/main/Pidrila.png">
 </p>
 
 Usage examples
